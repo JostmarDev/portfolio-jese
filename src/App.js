@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <Sidebar />
-      <main className='main'>main 
+      <main className='main'> 
       <Home />
       <About />
       <Services />
