@@ -167,7 +167,7 @@ img {
   }
 }
 
-.btn::hover {
+.btn:hover {
   animation: button-push 0.3s linear 1;
 
 }
