@@ -20,7 +20,7 @@ const Resume = () => {
                   year={val.year}
                   desc={val.desc} 
                   />
-              )
+              );
             }
           })}
         </div>
