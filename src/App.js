@@ -8,7 +8,6 @@ import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
 import Pricing from './components/pricing/Pricing';
 import Testimonials from './components/testimonials/Testimonials';
-import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
 
 const App = () => {
@@ -23,7 +22,6 @@ const App = () => {
       <Portfolio />
       <Pricing />
       <Testimonials />
-      <Blog />
       <Contact />
       </main>
     </>
