@@ -39,7 +39,7 @@ const Testimonials = () => {
 
       <Swiper className="testimonials__container grid"
         // install Swiper modules
-        modules={[ Pagination ]}
+        modules={[Pagination]}
         spaceBetween={30}
         slidesPerView={1}
         loop={true}
