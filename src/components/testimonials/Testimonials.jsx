@@ -1,7 +1,7 @@
 import React from 'react';
 import "./testimonials.css";
-import Image1 from "../../assets/avatar-1.svg";
-import Image3 from "../../assets/avatar-3.svg";
+import Image1 from "../../assets/juan.svg";
+import Image3 from "../../assets/kula.svg";
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules';
@@ -16,18 +16,16 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "John Doe",
-    subtitle: "Product designer at Dribble",
-    comment:
-      "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+    title: "Ing. Juan crisostomo lópez",
+    subtitle: "Former Colleague & Trusted Friend",
+    comment: "For me, Jese Jostmar is more than a former colleague; he's a treasured friend. We first met in school and later worked together. His steadfast integrity and unwavering support have profoundly enriched our friendship.! 👍",
   },
   {
     id: 2,
     image: Image3,
-    title: "John Doe",
-    subtitle: "Product designer at Dribble",
-    comment:
-      "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+    title: "Diego Martinez",
+    subtitle: "Systems Engineer",
+    comment: "Jese Jostmar, a dear and valued friend of mine. We met online, and it was a pleasant coincidence that he's just starting his programming career. A successful future awaits us! 🌟",
   },
 ];
 

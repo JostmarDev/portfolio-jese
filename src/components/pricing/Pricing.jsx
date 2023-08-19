@@ -1,8 +1,8 @@
-import React from 'react';
+/*import React from 'react';
 import "./pricing.css"
-import Image1 from "../../assets/price-1.svg";
-import Image2 from "../../assets/price-2.svg";
-import Image3 from "../../assets/price-3.svg";
+import Image1 from "../../assets";
+import Image2 from "../../assets";
+import Image3 from "../../assets";
 
 const Pricing = () => {
   return (
@@ -48,4 +48,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default Pricing*/

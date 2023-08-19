@@ -9,8 +9,8 @@
 }
 
 .thumb {
-    height: 5.6rem;
-    width: 5.6rem;
+    height: 40%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -62,4 +62,36 @@
     width: 1.2rem !important;
     height: 0.375rem !important;
     border-radius: 0.5rem !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .thumb {
+        height: 45%;
+        width: 45%;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .thumb {
+        height: 55%;
+        width: 55%;
+        
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .thumb {
+        height: 65%;
+        width: 65%;
+        
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .thumb {
+        height: 70%;
+        width: 70%;
+        
+    }
 }

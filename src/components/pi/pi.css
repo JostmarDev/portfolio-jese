@@ -1,9 +1,9 @@
-.services__container {
+.pi__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1.875rem;
 }
 
-.services__card {
+.pi__card {
     text-align: center;
     padding: 1.875rem;
     border-radius: var(--border-radius);
@@ -11,49 +11,50 @@
     transition: all .3s ease-in-out;
 }
 
-.services__card:hover {
+.pi__card:hover {
     transform: translateY(-10px);
 }
 
-.services__card:nth-child(1) {
-    background-color: rgb(108, 108, 229);
-    box-shadow: 0px 5px 20px rgb(108, 108, 229 / 50%);
+.pi__card:nth-child(1) {
+    background-color: rgb(0, 116, 217);
+    box-shadow: 0px 5px 20px rgb(0, 116, 217 / 50%);
 }
 
-.services__card:nth-child(2) {
-    background-color: rgb(108, 108, 229);
-    box-shadow: 0px 5px 20px rgb(108, 108, 229 / 50%);
+.pi__card:nth-child(2) {
+    background-color: rgb(155, 89, 182);
+    box-shadow: 0px 5px 20px rgb(155, 89, 182 / 50%);
 }
 
-.services__card:nth-child(3) {
-    background-color: rgb(108, 108, 229);
-    box-shadow: 0px 5px 20px rgb(108, 108, 229 / 50%);
+.pi__card:nth-child(3) {
+    background-color: rgb(255, 236, 33);
+    box-shadow: 0px 5px 20px rgb(243, 156, 18 / 50%);
 }
 
-.services__img {
+.pi__img {
     margin-bottom: 1.25rem;
 }
 
-.services__title {
+.pi__title {
     font-size: var(--h3-font-size);
     margin-bottom: 1rem;
     color: #fff;
 }
 
-.services__description {
+.pi__description {
     color: #f8f9fa;
+    text-align: center;
 }
 
-.services__card:nth-child(2) .services__title {
+.pi__card:nth-child(3) .pi__title {
     color: var(--title-color);
 }
 
-.services__card:nth-child(2) .services__description {
+.pi__card:nth-child(3) .pi__description {
     color: var(--text-color);
 }
 
 @media screen and (max-width: 1024px) {
-    .services__container {
+    .pi__container {
         grid-template-columns: repeat(2, 230px);
         justify-content: center;
         row-gap: 1.875rem;
@@ -61,13 +62,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .services__container {
+    .pi__container {
         grid-template-columns: 310px;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .services__container {
+    .pi__container {
         grid-template-columns: 1fr;
     }
 }

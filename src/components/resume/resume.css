@@ -13,8 +13,8 @@
 
 .timeline__item {
     position: relative;
-    padding-left: 3.125rem;
-    padding-bottom: 3.125rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .timeline__item::last-child {
@@ -50,6 +50,17 @@
 .timeline__title {
     font-size: var(--h3-font-size);
     margin: 0.5rem 0;
+}
+
+.timeline__link {
+    font-size: var(--h3-font-size);
+    margin: 0.5rem 0;
+}
+
+.certificate-btn {
+    padding: 0.35rem .875rem;
+    border-radius: .875rem;
+    font-size: .87rem;
 }
 
 @media screen and (max-width: 1024px) {

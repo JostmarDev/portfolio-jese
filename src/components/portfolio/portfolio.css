@@ -29,7 +29,7 @@
 }
 
 .work__mask {
-    background: #6c6ce5;
+    background: #9B59B6;
     position: absolute;
     left: 0;
     top: 0;
@@ -71,13 +71,13 @@
 }
 
 .work__button {
-    color: #fff;
+    color: #ff0000;
     position: absolute;
     bottom: 1.5rem;
     left: 1rem;
     font-size: var(--h3-font-size);
     display: block;
-    background-color: #ffd15c;
+    background-color: #ffffff;
     height: 40px;
     width: 40px;
     cursor: pointer;
