@@ -23,7 +23,7 @@ const data = [
   {
     id: 2,
     image: Image3,
-    title: "Diego Martinez",
+    title: "Ing Diego Martinez Almaza",
     subtitle: "Systems Engineer",
     comment: "Jese Jostmar, a dear and valued friend of mine. We met online, and it was a pleasant coincidence that he's just starting his programming career. A successful future awaits us! 🌟",
   },
