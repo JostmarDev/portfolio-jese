@@ -14,7 +14,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">Passionate about ever-evolving technology, I'm currently pursuing a degree in Software Development Engineering at UNADM. With a strong grasp of the MERN stack and a continuous learning mindset, I'm ready to enthusiastically contribute my IT skills. At 22 years old, I'm poised to make meaningful contributions in the field.</p>
-            <a href="" className="btn" rel="noopener noreferrer">Download CV</a>
+            <a href="https://drive.google.com/file/d/1kL_oGkXvuDiFyTQSr8ZvemxEVLWQPMBA/view?usp=sharing" className="btn" rel="noopener noreferrer">Download CV</a>
           </div>
 
           <div className="about__skills grid">

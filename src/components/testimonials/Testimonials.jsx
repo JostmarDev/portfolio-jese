@@ -24,7 +24,7 @@ const data = [
     id: 2,
     image: Image3,
     title: "Ing Diego Martinez Almaza",
-    subtitle: "Systems Engineer",
+    subtitle: "Trusted Friend & Systems Engineer",
     comment: "Jese Jostmar, a dear and valued friend of mine. We met online, and it was a pleasant coincidence that he's just starting his programming career. A successful future awaits us! 🌟",
   },
 ];
@@ -33,7 +33,7 @@ const data = [
 const Testimonials = () => {
   return (
     <section className="testimonials container section">
-      <h2 className="section__title">Clients & reviews</h2>
+      <h2 className="section__title">Comments & Testimonials</h2>
 
       <Swiper className="testimonials__container grid"
         // install Swiper modules

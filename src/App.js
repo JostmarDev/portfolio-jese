@@ -6,9 +6,11 @@ import About from "./components/about/About"
 import Pi from './components/pi/Pi';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
-import Pricing from './components/pricing/Pricing';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
+import Modal from 'react-modal';
+
+Modal.setAppElement('#root');
 
 const App = () => {
   return (
